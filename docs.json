@@ -18,7 +18,7 @@
             "pages": [
               "index",
               "quickstart",
-              "development"
+              "onboarding"
             ]
           },
           {
@@ -43,9 +43,23 @@
       }
     ]
   },
+  "navbar": {
+    "links": [
+      {
+        "label": "RankZero Home",
+        "icon": "home",
+        "href": "https://www.rankzero.io"
+      }
+    ],
+    "primary": {
+      "type": "button",
+      "label": "Dashboard →",
+      "href": "https://www.rankzero.io/dashboard"
+    }
+  },
   "logo": {
-    "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg"
+    "light": "/logo/rankzero-logo-light.svg",
+    "dark": "/logo/rankzero-logo-dark.svg"
   },
   "footer": {
     "socials": {
