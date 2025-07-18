@@ -22,28 +22,21 @@
             ]
           },
           {
-            "group": "Essentials",
+            "group": "Dashboard",
             "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/settings",
-              "essentials/navigation",
-              "essentials/reusable-snippets"
+              "d/prompts",
+              "d/competitors",
+              "d/sources",
+              "d/chats",
+              "d/dashboard"
             ]
           },
           {
-            "group": "API Documentation",
+            "group": "Metrics",
             "pages": [
-              "api-reference/introduction"
-            ]
-          },
-          {
-            "group": "Endpoint Examples",
-            "pages": [
-              "api-reference/endpoint/get",
-              "api-reference/endpoint/create",
-              "api-reference/endpoint/delete"
+              "metrics/visibility",
+              "metrics/mentions",
+              "metrics/sentiment"
             ]
           }
         ]
