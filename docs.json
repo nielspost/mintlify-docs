@@ -46,14 +46,13 @@
   "navbar": {
     "links": [
       {
-        "label": "RankZero Home",
-        "icon": "home",
+        "label": "Back Home",
         "href": "https://www.rankzero.io"
       }
     ],
     "primary": {
       "type": "button",
-      "label": "Dashboard →",
+      "label": "Dashboard >",
       "href": "https://www.rankzero.io/dashboard"
     }
   },

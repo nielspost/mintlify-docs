@@ -15,6 +15,10 @@ Visibility in AI means appearing in those conversations either as a named brand 
 
 Prompts simulate real questions your audience asks. RankZero runs them across multiple AI models once every 24 hours, giving you fresh insights on how ChatGPT, Perplexity, and Google AI Overviews respond and who they highlight.
 
+<Info>
+  Prompts are also suggested during onboarding
+</Info>
+
 ## How to Add Prompts
 
 Navigate to Prompts in your sidebar. From here, you can:
@@ -34,70 +38,65 @@ Click Add in the top-right of the Prompts page. You can:
   If your desired country isn't available, contact us and we'll add it in the next update.
 </Note>
 
-## Tagging Your Prompts
-
-Tags help you organize prompts around themes, funnel stages, locations, or product areas—so you can analyze performance in isolation.
-
-For example, you could compare visibility for "email marketing" prompts versus "social media marketing" prompts, or compare German prompts versus US prompts.
-
-## How to Tag Prompts
-
-- Add/edit tags by clicking the Tag column in the prompt table
-- Use bulk tagging by selecting multiple prompts and clicking Assign Tags
-
 ## Reading Your Prompts Dashboard
 
 The Prompts page shows all your prompts and their performance data. Here's what you'll see:
 
-## Dashboard Overview
+<CardGroup cols={2}>
+  <Card title="Next Prompt Cycle" img="/images/Screenshot2025-07-18at19.51.58.png">
+    - Timer showing when the next 24-hour prompt run begins
+  </Card>
+  <Card title="Active/Disabled tabs" img="/images/Screenshot2025-07-18at19.56.30.png">
+    - Switch between running prompts and archived ones
+  </Card>
+</CardGroup>
 
-- **Next prompt cycle:** Timer showing when the next 24-hour prompt run begins
-- **Prompt usage:** Shows how many active prompts you're using vs. your plan limit
-- **Active/Inactive tabs:** Switch between running prompts and archived ones
-- **Suggested prompts:** Generated prompt recommendations
+We also show:
+
+- **Geo:** Country where the prompt is run from (geo proxies available for ChatGPT and AI Overviews only)
+- **Created:** When the prompt was added
+- **Mentions**: Which prompts have mentions to you or your competitors.
 
 **Note:** Only active prompts count toward your prompt limit. Inactive prompts are archived but don't use your quota—a great way to experiment with new prompts while staying within your plan.
 
-## Filters and Controls
+### Filters and Controls _coming soon_
 
-- **Tags filter:** Filter prompts by specific or all tags
+- **AI Model filter:** Filter prompts by specific or all models
 - **Brand filter:** View prompts for your brand or specific (or all) competitors
 - **Add button:** Create new prompts manually
 
-## Prompt Performance Table
+## Individual Prompt Performance Table
 
-Each prompt shows:
+Click on any prompt to dive into its performance in the same dashboard view as you're used to. Each prompt shows:
+
+![Screenshot 2025-07-18 at 20.21.35.png](/images/Screenshot2025-07-18at20.21.35.png)
+
+### Visibility
+
+Percentage of responses where your brand appeared and how this changes over time.
+
+### Industry Ranking
+
+How your competitors rank for this specific prompt. In terms of:
 
 - **Position:** Average ranking when your brand appears in AI answers (lower is better)
-- **Sentiment:** Score from 1-100 based on how positively you're mentioned (higher is better)
-- **Visibility:** Percentage of responses where your brand appeared
-- **Top:** Icons showing the top 3 competitors mentioned for this prompt (hover to see exact percentages)
-- **Tags:** Prompt categories for organization (click to create or add new tags)
-- **Geo:** Country where the prompt is run from (geo proxies available for ChatGPT and AI Overviews only)
-- **Created:** When the prompt was added
+- **Visibility**: Score from 1-100 (see above).
+- **Sentiment:** Score from 1-100 based on how positively everyone's mentioned (higher is better)
 
-## Individual Prompt Performance
+### Recent Chats
 
-Click into a specific prompt to see an in-depth performance dashboard. Just like all other dashboards, you can customize it using filters, download CSV files, and explore metrics.
+How this prompt shows in the different models, including:
 
-## Managing Your Prompts
+- **Mentions**: Which competitors are mentioned in the output
+- **Created**: When this chat was created.
 
-## Individual Prompt Actions
+### Sources
 
-For single prompts, you can:
+All the sources linked to all the outputs of this prompt.
 
-- **Archive prompts:** Select your prompt and click Disable to turn it inactive while keeping historical data. To restore it, head into Inactive and click Enable
-- **Edit tags:** Click into Tags in the table to add or remove tags for specific prompts
+- **Usage %**: In how much percentage of the chats this source is used.
+- **Avg. Citations**: How often this source is cited in the prompt output. (the higher the better)
 
-## Bulk Prompt Actions
-
-Select multiple prompts using the checkboxes to:
-
-- **Group assign tags:** Add tags to several prompts at once
-- **Group disable:** Turn multiple prompts inactive simultaneously
-
-## Export Prompt Performance Data
-
-Scroll to the bottom of all active or inactive prompts to download a CSV file containing the last 7 days of data for each set.
-
-**Next:** Once your prompts are running, learn how to interpret your results.
+<Card title="All metrics" icon="up" href="/metrics">
+  Read above the metrics above
+</Card>
