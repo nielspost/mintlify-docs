@@ -37,6 +37,8 @@
               "metrics/visibility",
               "metrics/mentions",
               "metrics/sentiment"
+              "metrics/usage",
+              "metrics/citations"
             ]
           }
         ]
