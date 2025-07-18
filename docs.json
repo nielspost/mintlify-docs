@@ -36,7 +36,7 @@
             "pages": [
               "metrics/visibility",
               "metrics/mentions",
-              "metrics/sentiment"
+              "metrics/sentiment",
               "metrics/usage",
               "metrics/citations"
             ]
