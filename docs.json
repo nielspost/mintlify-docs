@@ -48,14 +48,18 @@
   "navbar": {
     "links": [
       {
-        "label": "Back Home",
+        "label": "Home",
         "href": "https://www.rankzero.io"
+      },
+      {
+        "label": "Log in",
+        "href": "https://www.rankzero.io/dashboard"
       }
     ],
     "primary": {
       "type": "button",
-      "label": "Dashboard >",
-      "href": "https://www.rankzero.io/dashboard"
+      "label": "Start Ranking with AI",
+      "href": "https://www.rankzero.io/onboarding"
     }
   },
   "logo": {
