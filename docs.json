@@ -45,6 +45,23 @@
       }
     ]
   },
+  "redirects": [
+    {
+      "source": "/",
+      "destination": "https://rankzero.io/docs",
+      "permanent": true
+    },
+    {
+      "source": "/d/:path*",
+      "destination": "https://rankzero.io/docs/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/:path*",
+      "destination": "https://rankzero.io/docs/:path*",
+      "permanent": true
+    }
+  ],
   "navbar": {
     "links": [
       {
@@ -67,22 +84,5 @@
     "dark": "/logo/rankzero-logo-dark.svg"
   },
   "footer": {
-  },
-   "redirects": [
-    {
-      "source": "/",
-      "destination": "https://rankzero.io/docs",
-      "permanent": true
-    },
-    {
-      "source": "/d/:path*",
-      "destination": "https://rankzero.io/docs/:path*",
-      "permanent": true
-    },
-    {
-      "source": "/:path*",
-      "destination": "https://rankzero.io/docs/:path*",
-      "permanent": true
-    }
-  ]
+  }
 }
